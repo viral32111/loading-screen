@@ -1,0 +1,24 @@
+@-webkit-keyframes walk{
+	0%{-webkit-transform:rotateZ(0deg);}	
+	50%{-webkit-transform:rotateZ(180deg);}
+	100%{-webkit-transform:rotateZ(360deg);}
+}
+
+.walk{
+	-webkit-animation-name: walk;
+	-webkit-animation-duration:10.0s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:linear;
+	-webkit-perspective:6000px;
+	text-align:center;
+	background-color:#ffee77;
+	width:24px;
+	height:24px;
+	color:#999;
+	font-size:16px;
+	font-family:arial;
+	font-weight:bold;
+	border-radius:3px;
+	display:inline-block;
+	border:2px solid #999;
+}
